@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./styles.css" media="screen" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,900&display=swap"
+        rel="stylesheet">
+    <title>Contability for you</title>
+</head>
+
+<body>
+    <div class="caixa-superior">
+        <div class="caixa-cabeçalho">
+            <h2 class="titulo-cabeçalho">Dev Contábil</h2>
+            <a href="#titulo-caixa-final" class="link-cabeçalho">Quem somos</a>
+            <a href="#titulo-caixa-central" class="link-cabeçalho">Serviços</a>
+            <a class="link-cabeçalho" onclick="xerife()">Contato</a>
+        </div>
+
+        <h1>Dev Contábil</h1>
+
+        <form id="formulario-contato" action="https://formsubmit.co/erikgtorres28@gmail.com" method="POST">
+            <h3 class="titulo-formulario">Entre em Contato</h3>
+
+            <label>
+                Nome
+                <input type="text" name="Nome" placeholder="Digite seu nome" required />
+
+            </label>
+
+            <label>
+                E-mail
+                <input type="email" name="email" placeholder="Digite seu e-mail" required />
+
+            </label>
+
+            <label>
+                Número do whatsapp
+                <input type="tel" name="telefone" placeholder="Digite seu número do whatsapp" required />
+
+            </label>
+
+            <label>
+                Fale Conosco
+                <textarea name="dúvidas" placeholder="Tire suas dúvidas aqui"></textarea>
+
+            </label>
+
+            <button type="submit">Enviar</button>
+
+        </form>
+    </div>
+
+    <h2 id="titulo-caixa-central">Nossos Serviços</h2>
+
+    <div class="caixa-central">
+
+        <div class="cards">
+
+            <h3 class="titulo-card">Contabilidade Completa</h3>
+
+            <ul>
+                <li>item 1</li>
+                <li>item 2</li>
+                <li>item 3</li>
+                <li>item 4</li>
+                <li>item 5</li>
+                <li>item 6</li>
+            </ul>
+
+        </div>
+
+        <div class="cards">
+
+            <h3 class="titulo-card">Cuidamos do Seu Negócio</h3>
+
+            <ul>
+                <li>item 1</li>
+                <li>item 2</li>
+                <li>item 3</li>
+                <li>item 4</li>
+                <li>item 5</li>
+                <li>item 6</li>
+            </ul>
+
+        </div>
+
+        <div class="cards">
+
+            <h3 class="titulo-card">Cuidamos de Você</h3>
+
+            <ul>
+                <li>item 1</li>
+                <li>item 2</li>
+                <li>item 3</li>
+                <li>item 4</li>
+                <li>item 5</li>
+                <li>item 6</li>
+            </ul>
+
+        </div>
+    </div>
+
+    <div class="caixa-final">
+
+        <h2 id="titulo-caixa-final">Sobre Nós</h2>
+
+        <p class="paragrafo-final">
+
+        <p class="p1">
+            Estamos presente no mercado há mais de 4 décadas auxiliando nossos clientes nacionais e
+            internacionais que
+            já
+            atuam ou desejam abrir seus negócios e ingressar no Brasil.</p>
+        <p class="p2">
+            Assessoramos investidores que queiram prospectar seus negócios no Brasil e investidores
+            (“brasileiros”)
+            interessados em fazer negócios em outros países.</p>
+        <p class="p3">
+            Oferecemos “backoffice” nas áreas Financeira, Recursos Humanos, Tributária e Contabilidade, inclusive a
+            abertura, legalização e regularização de empresas e negócios.
+            Com pesquisas de mercado, montamos toda estrutura organizacional, ambiente operacional e
+            logística de suas
+            atividades, com profissionais qualificados, competentes e continuamente treinados.</p>
+        <p class="p4">
+            Somos especialistas em empresas tributadas pelo LUCRO REAL e Contabilidade em IFRS. Assim, o
+            Planejamento
+            das
+            Operações e suas consequências tributárias passam a ser condições de competitividade, inclusive sugerindo
+            incorporação ou desmembramento de atividades.</p>
+        </p>
+    </div>
+</body>
+
+<script>
+
+    let formulario = document.getElementById("formulario-contato")
+
+    console.log(formulario)
+
+    function xerife(){
+        formulario.className = "mostrar-formulario"
+    }
+
+</script>
+
+</html>

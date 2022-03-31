@@ -1,0 +1,200 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.caixa-superior {
+    background-image: url(./imagem\ site\ contábil.png);
+    background-size: cover;
+    height: 100vh;
+}
+
+.caixa-cabeçalho {
+    padding-top: 25px;
+    padding-left: 35px;
+}
+
+.titulo-cabeçalho {
+    color: #FFFFFF;
+    font-size: 24px;
+    display:inline;
+}
+
+.link-cabeçalho {
+    color: #FFFFFF;
+    font-size: 14px;
+    margin-left: 60px;
+    display: inline;
+    cursor: pointer;
+    text-decoration: none;  
+}
+
+a:hover{
+    color: royalblue;
+    text-decoration: underline;
+    background-color: #FFFFFF;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-size: 58px;
+    margin-left: 35px;
+    position: relative;
+    top: 420px;
+}
+
+.titulo-formulario {
+    color: #252B42;
+    font-size: 24px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+form {
+    opacity: 0;
+    transition: opacity 1s linear;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    float: right;
+    padding: 40px;
+    margin-right: 50px;
+    position: relative;
+    bottom: 70px;
+}
+
+.mostrar-formulario{
+    opacity: 1;
+}
+
+label {
+    color: #252B42;
+    font-size: 14px;
+}
+
+input {
+    display: block;
+    background: #EEF6FF;
+    padding: 10px;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    height: 40px;
+    width: 250px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+textarea {
+    display: block;
+    height: 100px;
+    width: 250px;
+    background: #EEF6FF;
+    padding: 10px;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+button {
+    height: 40px;
+    width: 250px;
+    background-color: royalblue;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+button:hover {
+    background-color: darkslategray;
+}
+
+.caixa-central {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+#titulo-caixa-central {
+    font-size: 40px;
+    color: #252B42;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.cards {
+    width: 300px;
+    border-radius: 12px;
+    background-color: #EEF6FF;
+    border: 1px solid #A9D6FF;
+}
+
+.titulo-card {
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: royalblue;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+ul {
+    padding: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.caixa-final {
+    background-color: royalblue;
+}
+
+#titulo-caixa-final {
+    color: #FFFFFF;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.p1 {
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: left;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.p2 {
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: left;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.p3 {
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: left;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.p4 {
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: left;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
